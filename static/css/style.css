@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Monserrat;
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Neue Machina";
+  src: url("/fonts/NeueMachina-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roslindale Display Condensed";
+  src: url(/fonts/RoslindaleDisplayCondensed-Bold.woff2) format("woff2");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Monserrat;
+}
+
+nav {
+  padding: 20px 30px;
+  color: white;
+  background: rgb(83, 169, 183);
+  background: linear-gradient(
+    329deg,
+    rgba(83, 169, 183, 1) 0%,
+    rgba(87, 164, 181, 1) 6%,
+    rgba(228, 5, 122, 1) 100%
+  );
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+nav > h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Neue Machina";
+}
+
+footer {
+  padding: 20px 30px;
+  color: rgb(83, 169, 183);
+  background: black;
+  min-height: 100px;
+}
+
+footer > h6 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#content {
+  background-image: url("/images/wallpaper-lg.png");
+  background-repeat: round;
+  background-size: 100px;
+  padding: 20px;
+}
+
+main {
+  max-width: 1200px;
+  background-color: white;
+  min-height: calc(100vh - 240px);
+  margin: auto;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+main h1 {
+  margin: 0;
+  padding: 30px 0;
+  text-transform: uppercase;
+  font-family: "Roslindale Display Condensed";
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+article {
+  margin: 30px 10px;
+  background: rgb(83, 169, 183);
+  background: linear-gradient(
+    329deg,
+    rgba(83, 169, 183, 1) 0%,
+    rgba(87, 164, 181, 1) 6%,
+    rgba(228, 5, 122, 1) 100%
+  );
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+}

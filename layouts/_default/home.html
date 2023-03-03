@@ -1,0 +1,6 @@
+{{ define "main" }}
+<main aria-role="main">
+  <h1>{{.Title}}</h1>
+  {{ range first 5 .Site.RegularPages }} {{ .Render "summary"}} {{ end }}
+</main>
+{{ end }}
